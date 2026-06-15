@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "415543736010",
+    "firebase_url": "https://myspendings-63c8a-default-rtdb.firebaseio.com",
+    "project_id": "myspendings-63c8a",
+    "storage_bucket": "myspendings-63c8a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415543736010:android:7dabc8b4d2a61d1c10e633",
+        "android_client_info": {
+          "package_name": "com.example.myspendings"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB30J5EUla8lSpvKOq5PsGBJZaNf3tBTeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

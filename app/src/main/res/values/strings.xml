@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">mySpendings</string>
+
+    <!-- Auth -->
+    <string name="welcome_title">Welcome to mySpendings</string>
+    <string name="welcome_subtitle">Track your expenses and stay on budget</string>
+    <string name="username">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="btn_login">Log In</string>
+    <string name="btn_register">Sign Up</string>
+    <string name="no_account">Don\'t have an account? Sign up</string>
+    <string name="have_account">Already have an account? Log in</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_add_expense">Add Expense</string>
+    <string name="nav_expenses">Expenses</string>
+    <string name="nav_categories">Categories</string>
+    <string name="nav_budget_goals">Budget Goals</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_logout">Logout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_subtitle">Budget Overview</string>
+    <string name="monthly_budget">Monthly Budget</string>
+    <string name="your_spending_this_month">Your spending for this month</string>
+    <string name="of_budget">of R%1$.0f budget</string>
+    <string name="budget_used_pct">%.1f%% of budget used</string>
+    <string name="remaining">remaining</string>
+    <string name="total_spent">Total Spent</string>
+    <string name="under_budget">Under Budget</string>
+    <string name="categories_over">Categories Over</string>
+    <string name="category_breakdown">Category Breakdown</string>
+    <string name="spending_by_category_this_month">Spending by category this month</string>
+    <string name="over_budget_badge">Over Budget</string>
+    <string name="pct_used">%.1f%% used</string>
+    <string name="amount_over">R%.2f over</string>
+
+    <!-- Add Expense -->
+    <string name="add_expense_title">Add Expense</string>
+    <string name="add_expense_subtitle">Record a new expense entry</string>
+    <string name="expense_details">Expense Details</string>
+    <string name="fill_in_info">Fill in the information about your expense</string>
+    <string name="date">Date</string>
+    <string name="amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+    <string name="description_hint">Add details about this expense…</string>
+    <string name="receipt_photo">Receipt Photo (Optional)</string>
+    <string name="upload_receipt">Upload a photo of your receipt</string>
+    <string name="choose_file">Choose File</string>
+    <string name="btn_save_expense">Save Expense</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="select_category">Select a category</string>
+    <string name="amount_prefix">R</string>
+
+    <!-- Expenses -->
+    <string name="expenses_title">Expenses</string>
+    <string name="expenses_subtitle">View and manage your expense history</string>
+    <string name="time_period">Time Period</string>
+    <string name="this_month">This Month</string>
+    <string name="last_30_days">Last 30 Days</string>
+    <string name="last_3_months">Last 3 Months</string>
+    <string name="all_time">All Time</string>
+    <string name="expense_entries">Expense Entries</string>
+    <string name="n_expenses_in_period">%1$d expenses in this period</string>
+    <string name="btn_add_expense">+ Add Expense</string>
+    <string name="no_expenses">No expenses in this period</string>
+
+    <!-- Categories -->
+    <string name="categories_title">Categories</string>
+    <string name="categories_subtitle">Manage your expense categories</string>
+    <string name="btn_add_category">+ Add Category</string>
+    <string name="n_expenses">%1$d expenses</string>
+    <string name="total_spent_label">total spent</string>
+    <string name="add_new_category">Add New Category</string>
+    <string name="create_custom_category">Create a custom category for your expenses</string>
+    <string name="category_name">Category Name</string>
+    <string name="category_name_hint">e.g. Healthcare, Utilities, etc.</string>
+    <string name="btn_create_category">Create Category</string>
+    <string name="no_categories">No categories yet. Add one!</string>
+
+    <!-- Budget Goals -->
+    <string name="budget_goals_title">Budget Goals</string>
+    <string name="budget_goals_subtitle">Set your monthly spending targets</string>
+    <string name="monthly_budget_goal">Monthly Budget Goal</string>
+    <string name="monthly_budget_goal_subtitle">Your total spending limit for the month</string>
+    <string name="monthly_limit">Monthly Limit</string>
+    <string name="category_limits">Category Limits</string>
+    <string name="set_limits_per_category">Set spending limits for each category</string>
+    <string name="total_category_budgets">Total Category Budgets:</string>
+    <string name="monthly_budget_label">Monthly Budget:</string>
+    <string name="difference">Difference:</string>
+    <string name="btn_save_goals">Save Budget Goals</string>
+    <string name="amount_under">R%.2f under</string>
+    <string name="amount_over_goals">R%.2f over</string>
+
+    <!-- Analytics -->
+    <string name="analytics_title">Analytics</string>
+    <string name="analytics_subtitle">Visualize your spending trends</string>
+    <string name="daily_spending_trend">Daily Spending Trend</string>
+    <string name="track_daily_expenses">Track your daily expenses by category</string>
+    <string name="category_distribution">Category Distribution</string>
+    <string name="spending_breakdown">Spending breakdown by category</string>
+    <string name="category_comparison">Category Comparison</string>
+    <string name="compare_spending">Compare spending across categories</string>
+    <string name="spending_insights">Spending Insights</string>
+    <string name="key_observations">Key observations from your spending patterns</string>
+    <string name="daily_average">Daily Average</string>
+    <string name="total_spending">Total Spending</string>
+
+    <!-- Errors / Validation -->
+    <string name="error_username_empty">Please enter your email</string>
+    <string name="error_password_empty">Please enter a password</string>
+    <string name="error_username_taken">An account with this email aleady exists</string>
+    <string name="error_passwords_no_match">Passwords do not match</string>
+    <string name="error_invalid_credentials">Invalid email or password</string>
+    <string name="error_amount_invalid">Please enter a valid amount</string>
+    <string name="error_category_empty">Please select a category</string>
+    <string name="error_description_empty">Please add a description</string>
+    <string name="error_category_name_empty">Please enter a category name</string>
+    <string name="success_expense_saved">Expense saved!</string>
+    <string name="success_category_created">Category created!</string>
+    <string name="success_goals_saved">Budget goals saved!</string>
+    <string name="confirm_delete_expense">Delete this expense?</string>
+    <string name="confirm_delete_category">Delete this category? Expenses in this category will remain but be uncategorised.</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_confirm">Confirm</string>
+
+    <!-- File provider -->
+    <string name="file_provider_authority">com.yourname.budgettracker.fileprovider</string>
+</resources>

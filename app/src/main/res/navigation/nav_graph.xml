@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.example.myspendings.DashboardFragment"
+        android:label="Dashboard"/>
+
+    <fragment
+        android:id="@+id/nav_add_expense"
+        android:name="com.example.myspendings.AddExpenseFragment"
+        android:label="Add Expense"/>
+
+    <fragment
+        android:id="@+id/nav_expenses"
+        android:name="com.example.myspendings.ExpensesFragment"
+        android:label="Expenses"/>
+
+    <fragment
+        android:id="@+id/nav_categories"
+        android:name="com.example.myspendings.CategoriesFragment"
+        android:label="Categories"/>
+
+    <fragment
+        android:id="@+id/nav_budget_goals"
+        android:name="com.example.myspendings.BudgetGoalsFragment"
+        android:label="Budget Goals"/>
+
+    <fragment
+        android:id="@+id/nav_analytics"
+        android:name="com.example.myspendings.AnalyticsFragment"
+        android:label="Analytics"/>
+
+    <!-- NEW: Gamification / Achievements -->
+    <fragment
+        android:id="@+id/nav_gamification"
+        android:name="com.example.myspendings.GamificationFragment"
+        android:label="Achievements"/>
+
+</navigation>

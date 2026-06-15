@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- === DARK NAVY THEME (mySpendings) === -->
+
+    <!-- Backgrounds -->
+    <color name="bg_primary">#0D1117</color>
+    <color name="bg_secondary">#161B22</color>
+    <color name="bg_card">#1C2333</color>
+    <color name="bg_input">#1C2333</color>
+    <color name="bg_sidebar">#0D1117</color>
+    <color name="bg_sidebar_active">#1C2A4A</color>
+
+    <!-- Purple accent (buttons, active nav) -->
+    <color name="accent_purple">#6C5CE7</color>
+    <color name="accent_purple_dark">#5A4BD1</color>
+    <color name="accent_purple_light">#8B7FF0</color>
+    <color name="accent_purple_dim">#2D2550</color>
+
+    <!-- Status colors -->
+    <color name="status_green">#00D4AA</color>
+    <color name="status_green_dim">#0D2B25</color>
+    <color name="status_red">#FF4757</color>
+    <color name="status_red_dim">#2D1B1E</color>
+    <color name="status_yellow">#FFA502</color>
+    <color name="status_yellow_dim">#2D2010</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8B949E</color>
+    <color name="text_muted">#484F58</color>
+    <color name="text_on_accent">#FFFFFF</color>
+
+    <!-- Borders -->
+    <color name="border_default">#21262D</color>
+    <color name="border_input">#30363D</color>
+    <color name="border_active">#6C5CE7</color>
+
+    <!-- Category colors (vibrant, colorful) -->
+    <color name="cat_groceries">#00D4AA</color>
+    <color name="cat_food">#FF6348</color>
+    <color name="cat_entertainment">#A29BFE</color>
+    <color name="cat_transport">#74B9FF</color>
+    <color name="cat_shopping">#FD79A8</color>
+    <color name="cat_health">#55EFC4</color>
+    <color name="cat_bills">#FDCB6E</color>
+    <color name="cat_other">#636E72</color>
+
+    <!-- Chart colors -->
+    <color name="chart_1">#00D4AA</color>
+    <color name="chart_2">#FF6348</color>
+    <color name="chart_3">#A29BFE</color>
+    <color name="chart_4">#74B9FF</color>
+    <color name="chart_5">#FD79A8</color>
+    <color name="chart_6">#FDCB6E</color>
+
+    <!-- Progress bars -->
+    <color name="progress_bg">#21262D</color>
+    <color name="progress_ok">#00D4AA</color>
+    <color name="progress_over">#FF4757</color>
+
+    <!-- Misc -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="divider">#21262D</color>
+
+    <!-- Legacy aliases (so existing code doesn't break) -->
+    <color name="primary">#6C5CE7</color>
+    <color name="secondary">#00D4AA</color>
+    <color name="background">#0D1117</color>
+    <color name="surface">#161B22</color>
+    <color name="error">#FF4757</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_secondary">#FFFFFF</color>
+</resources>
